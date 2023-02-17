@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>exam</title>
+
+		<!-- ============================ LINK STYLESHEET =============================== -->
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<nav class="nav">
+					<!-- LOGO -->
+					<a href="#" class="logo">
+						<img src="./imgs/header-logo.svg" alt="header logo" />
+					</a>
+
+					<!-- ======================= SEARCH INPUT FORM ========================= -->
+
+					<form class="form-search">
+						<label for="form-search__label" class="form-search__label">
+							<img src="imgs/search-logo.svg" alt="search logo" />
+							<input
+								type="search"
+								class="search-input"
+								id="form-search__label"
+								placeholder="Search books"
+							/>
+						</label>
+					</form>
+
+					<!-- ======================= SEARCH INPUT FORM ========================= -->
+
+					<!-- ======================= BACK HOME BUTTON ========================== -->
+
+					<ul class="list">
+						<li class="list__item">
+							<a href="#" class="list__item-sun switch">
+								<img src="./imgs/sun.svg" alt="sun logo" />
+							</a>
+						</li>
+						<li class="list__item">
+							<a href="#" class="back-home">Back Home </a>
+						</li>
+					</ul>
+
+					<!-- ===================== END BACK HOME BUTTON ======================== -->
+				</nav>
+			</div>
+		</header>
+
+		<!-- ============================== SHOWING RESULT PANEL ========================= -->
+
+		<section class="results">
+			<div class="container results__container">
+				<p class="results__text">Showing <span class="results__num">0</span> result(s)</p>
+				<div class="results__order">
+					<img src="./imgs/calendar.svg" alt="calendar" />
+					Order by newest
+				</div>
+			</div>
+		</section>
+
+		<!-- ============================= END SHOWING RESULT PANEL ====================== -->
+
+		<div class="info__modal"></div>
+		<div class="info__overlay"></div>
+
+		<!-- LOADER -->
+		<div class="square-wrap">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+
+		<main class="main">
+			<div class="container main__container">
+				<!-- =========================== BOOKMARKS PANEL =========================== -->
+
+				<aside class="main-left">
+					<h3 class="main-left__title">Bookmarks</h3>
+					<p class="main-left__text">If you don’t like to read, you haven’t found the right book</p>
+					<div class="main-left__table"></div>
+				</aside>
+
+				<!-- ========================== END BOOKMARKS PANEL ====================== -->
+
+				<aside class="main-right">
+					<p class="error">Serverga ulanishda xatolik</p>
+
+					<ul class="main-card"></ul>
+
+					<!-- =========================== PAGINITION =========================== -->
+
+					<div class="pagination">
+						<button class="prev prev--active">
+							<img src="./imgs/arrow-left.svg" alt="arrow-left" />
+						</button>
+						<ul class="numbers"></ul>
+						<button class="next">
+							<img src="./imgs/arrow-right.svg" alt="arrow-right" />
+						</button>
+					</div>
+
+					<!-- ========================= END PAGINITION ========================= -->
+				</aside>
+			</div>
+		</main>
+
+		<!-- ==================================== SCRIPT JS =========================== -->
+
+		<script type="module" src="./js/admin.js"></script>
+
+		<!-- ================================== END SCRIPT JS ========================= -->
+	</body>
+</html>

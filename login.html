@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>exam</title>
+
+		<!-- =============== LINK STYLESHEET ================ -->
+		<link rel="stylesheet" href="./css/login.css" />
+	</head>
+	<body>
+		<!-- LOGIN LOGO -->
+		<img src="./imgs/login-logo.svg" alt="" />
+
+		<!-- LOGIN FORM -->
+		<form class="form">
+			<div class="input">
+				<img src="./imgs/user.svg" alt="" />
+				<input class="username-input" type="text" placeholder="USERNAME" name="username" />
+			</div>
+			<p class="errorEmail"></p>
+
+			<div class="input">
+				<img src="./imgs/lock.svg" alt="" />
+				<input class="password-input" type="password" placeholder="PASSWORD" name="password" />
+			</div>
+			<p class="errorPass"></p>
+
+			<button type="submit" class="button">Login</button>
+
+			<a href="#" class="forgot">Forgot e-mail?</a>
+			<p class="forgotEmail"></p>
+		</form>
+
+		<script type="module" src="./js/login.js"></script>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	padding: 200px;
+	background-image: URL("../imgs/Login.png");
+	display: flex;
+	vertical-align: middle;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.input {
+	display: flex;
+	align-items: center;
+	width: 300px;
+	height: 45px;
+	color: #e5e5e5;
+	border: 2px solid gray;
+	border-radius: 4px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.username-input,
+.password-input {
+	margin-left: 15px;
+	font-weight: 300;
+	font-size: 14px;
+
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #e5e5e5;
+}
+
+.button {
+	width: 300px;
+	height: 45px;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	background: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	color: #0d75ff;
+	text-transform: uppercase;
+}
+
+.forgot {
+	margin-top: 12px;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.errorEmail,
+.errorPass {
+	color: red;
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.forgotEmail {
+	color: green;
+	font-size: 13px;
+	margin-top: 5px;
+}
